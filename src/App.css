@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+body{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/019/605/282/non_2x/simple-minimalist-modern-background-trendy-simple-wallpaper-hd-free-vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Reddit Sans Condensed", sans-serif;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  margin: auto;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0;
+  margin: 40px;
+}
+.right{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.247);
+  margin: 40px;
+  width: 50%;
+  padding: 30px;
+  text-align: center;
+}
+.right ,h1, p {
+  margin: 0;
+}
+.button{
+  justify-content: start;
+  display: flex;
+  margin-left: 25px;
+}
+.main h1{
+  text-align: center;
+  font-size: 50px;
+}
+.section{
+  background: linear-gradient(to right, #F8B94A, #ffa7bb);
+  width: 70%;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 20px;
+  padding: 0 30px 30px 30px;
+  box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.265);
+}
+.main{
+  padding:50px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .head {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left, .right {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .section {
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .main {
+    padding: 30px;
+  }
+
+  .button {
+    margin-top: 20px;
+  }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 480px) {
+  .section {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 20px 20px 20px;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .left, .right {
+    margin: 10px 0;
+    padding: 20px;
+  }
+
+  .right {
+    padding: 20px;
+  }
+
+  .button {
+    margin-top: 15px;
+  }
+}
